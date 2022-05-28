@@ -26,7 +26,7 @@ Menu has 3 options:
 <details>
     <summary>Options scrrenshots</summary>
     <img alt="Menu difficulty tab" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme_images/menu_difficulty.png">
-    <img alt="Menu top score tab" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme_images/menu_top_score.png">
+    <img alt="Menu top score tab" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme-images/menu_top_score.png">
     <img alt="Menu credits tab" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme_images/menu_credits.png">
 </details> 
 
