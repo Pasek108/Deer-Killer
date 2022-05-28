@@ -2,9 +2,9 @@
  Racing game in pure JS / CSS / HTML based on Road Fighter (NES). Rules are simple, player has to get as many points as possible, points are given for riding and killing deers (+1000), also player has 3 lives that he will lost when he touch enemy car, if so he gets shield that protect him for next 3 secons. If player lost all of his lives game is over and he can save the score and then start again.
  <details>
     <summary>Screenshots</summary>
-    <img alt="Menu" src="https://github.com/Pasek108/ConnectGame/blob/main/readme_images/menu.png">
-    <img alt="Game" src="https://github.com/Pasek108/ConnectGame/blob/main/readme_images/game.png">
-    <img alt="Game Over" src="https://github.com/Pasek108/ConnectGame/blob/main/readme_images/game_over.png">
+    <img alt="Menu" src="https://github.com/Pasek108/Deer-Killer/tree/main/readme_images/menu.png">
+    <img alt="Game" src="https://github.com/Pasek108/Deer-Killer/tree/main/readme_images/game.png">
+    <img alt="Game Over" src="https://github.com/Pasek108/Deer-Killer/tree/main/readme_images/game_over.png">
 </details> 
 
 ## How it works
@@ -16,7 +16,7 @@ Menu starts with few animations:
 4. Resize sign and move it to top while sliding in menu options from bottom
 <details>
     <summary>Animation</summary>
-    <img alt="Menu start animation" src="https://github.com/Pasek108/ConnectGame/blob/main/readme_images/menu_bg.png">
+    <img alt="Menu start animation" src="https://github.com/Pasek108/Deer-Killer/tree/main/readme_images/menu_bg.png">
 </details> 
 
 Menu has 3 options:
@@ -25,16 +25,16 @@ Menu has 3 options:
 * Credits - links resources i used to make this game
 <details>
     <summary>Options scrrenshots</summary>
-    <img alt="Menu difficulty tab" src="https://github.com/Pasek108/ConnectGame/blob/main/readme_images/menu_difficulty.png">
-    <img alt="Menu top score tab" src="https://github.com/Pasek108/ConnectGame/blob/main/readme_images/menu_top_score.png">
-    <img alt="Menu credits tab" src="https://github.com/Pasek108/ConnectGame/blob/main/readme_images/menu_credits.png">
+    <img alt="Menu difficulty tab" src="https://github.com/Pasek108/Deer-Killer/tree/main/readme_images/menu_difficulty.png">
+    <img alt="Menu top score tab" src="https://github.com/Pasek108/Deer-Killer/tree/main/readme_images/menu_top_score.png">
+    <img alt="Menu credits tab" src="https://github.com/Pasek108/Deer-Killer/tree/main/readme_images/menu_credits.png">
 </details> 
 
 ### Game
 Games start with count from 3 to 1 and it begins. Some amount of enemy cars (dependent of difficulty level) starts falling from top with random positions and speeds. In radom intervals of time 2 deers spawns, killing deers gives player 1000 points. Every 3000 point player gets 1 level of energy that lets him slow down time for as many secons as he has energy (max 5). When player touch enemy car it explodes and player gets shield for next 3 seconds
 <details>
     <summary>Przykładowa tablica dla poziomu łatwego</summary>
-    <img alt="Array for easy level" src="https://github.com/Pasek108/ConnectGame/blob/main/readme_images/example_array.png">
+    <img alt="Array for easy level" src="https://github.com/Pasek108/Deer-Killer/tree/main/main/readme_images/example_array.png">
 </details> 
 
 
