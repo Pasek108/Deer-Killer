@@ -1,7 +1,7 @@
 # Deer Killer
  Racing game in pure JS / CSS / HTML based on Road Fighter (NES). Rules are simple, player has to get as many points as possible, points are given for riding and killing deers (+1000). Player has 3 lives that he will lost when he touch enemy car, if so, he gets shield that protect him for next 3 seconds. If player lost all of his lives game is over and he can save the score and then start again. There is also a slow time skill for helping player, every 3000 points it gets 1 stack of energy, each stack let use skill for 1s (max 5s).
 <details>
-    <summary>Screenshots</summary>
+    <summary><b>Screenshots</b></summary>
     <img alt="Menu" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme-images/menu.png">
     <img alt="Game" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme-images/game.png">
     <img alt="Game Over" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme-images/game_over.png">
@@ -15,7 +15,7 @@ Menu starts with few animations:
 3. Replace road sign with bloody sign and fade out title
 4. Resize sign and move it to top while sliding in menu options from bottom
 <details>
-    <summary>Animation</summary>
+    <summary><b>Animation</b></summary>
     <img alt="Menu start animation" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme-images/menu_animation.gif">
 </details> 
 
@@ -24,7 +24,7 @@ Menu has 3 options:
 * Top Score - shows your and all time players top 10 games for each level
 * Credits - links resources i used to make this game
 <details>
-    <summary>Options scrrenshots</summary>
+    <summary><b>Options scrrenshots</b></summary>
     <img alt="Menu difficulty tab" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme-images/menu_difficulty.png">
     <img alt="Menu top score tab" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme-images/menu_top_score.png">
     <img alt="Menu credits tab" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme-images/menu_credits.png">
