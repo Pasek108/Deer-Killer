@@ -1,7 +1,7 @@
 # Deer Killer
  Racing game in pure JS / CSS / HTML based on Road Fighter (NES). Rules are simple, player has to get as many points as possible, points are given for riding and killing deers (+1000). Player has 3 lives that he will lost when he touch enemy car, if so, he gets shield that protect him for next 3 seconds. If player lost all of his lives game is over and he can save the score and then start again. There is also a slow time skill for helping player, every 3000 points it gets 1 stack of energy, each stack let use skill for 1s (max 5s).
 <details>
-    <summary>Screenshots</summary>
+    <summary><b>Screenshots</b></summary>
     <img alt="Menu" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme-images/menu.png">
     <img alt="Game" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme-images/game.png">
     <img alt="Game Over" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme-images/game_over.png">
@@ -15,8 +15,8 @@ Menu starts with few animations:
 3. Replace road sign with bloody sign and fade out title
 4. Resize sign and move it to top while sliding in menu options from bottom
 <details>
-    <summary>Animation</summary>
-    <img alt="Menu start animation" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme-images/menu_top_score.png">
+    <summary><b>Animation</b></summary>
+    <img alt="Menu start animation" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme-images/menu_animation.gif">
 </details> 
 
 Menu has 3 options:
@@ -24,7 +24,7 @@ Menu has 3 options:
 * Top Score - shows your and all time players top 10 games for each level
 * Credits - links resources i used to make this game
 <details>
-    <summary>Options scrrenshots</summary>
+    <summary><b>Options scrrenshots</b></summary>
     <img alt="Menu difficulty tab" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme-images/menu_difficulty.png">
     <img alt="Menu top score tab" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme-images/menu_top_score.png">
     <img alt="Menu credits tab" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme-images/menu_credits.png">
@@ -32,6 +32,9 @@ Menu has 3 options:
 
 ### Game
 Games start with count from 3 to 1 and it begins. 
+
+### Road and background
+Game consist of four canvases, three of them are background and one is game itself. For background there are two canvases with trees image and one with gray background and road lanes, all of them are moving in loop with synchronized speed. Player, enemies and deers are painted in the main canvas over the middle one with road background, all collision detections happens here.
 
 ### Enenmies position algorithm
 Some amount of enemy cars (dependent of difficulty level) starts falling from top with random positions and speeds using the following algorithm:
@@ -43,7 +46,12 @@ Some amount of enemy cars (dependent of difficulty level) starts falling from to
    4. If the above are not correct random new position and check again
 
 ### Deers
-Deers spawn in radom intervals of time with random position and vector. If they touch enemy they die. If killed by player, they gives 1000 point and die, If they reach other side of road they respawn again for a random amount of time. If deer is dead his image is swaped for blood and his vector.x is set to 0.
+Deers spawn in radom intervals of time with random position and vector. If they touch enemy they die. If killed by player, they gives 1000 point and die. If they reach other side of road they respawn again for a random amount of time. If deer is dead his image is swaped for blood and his vector.x is set to 0.
 
+### Player
+Player has event listener for mouse movement and key press for activating slowmo. Movement of player is limited by size of the road.
+
+### Game over animation
+When player loses his last life, game over animation is fired, enemies explode while player start sliding to the closest side of the road, if he pass road size limit happy deers appears and starts laughing at the player for 3s, then game over screen slides from top and player can save score and/or back to menu.
 
 
