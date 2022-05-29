@@ -1,5 +1,5 @@
 # Deer Killer
- Racing game in pure JS / CSS / HTML based on Road Fighter (NES). Rules are simple, player has to get as many points as possible, points are given for riding and killing deers (+1000). Player has 3 lives that he will lost when he touch enemy car, if so, he gets shield that protect him for next 3 seconds. If player lost all of his lives game is over and he can save the score and then start again. There is also a slow time skill for helping player, every 3000 points it gets 1 stack of energy, each stack let use skill for 1s (max 5s).
+ Racing game in pure JS / CSS / HTML primarily based on Road Fighter (NES). Rules are simple, player has to get as many points as possible, points are given for riding and killing deers (+1000). Player has 3 lives that he will lost when he touch enemy car, if so, he gets shield that protect him for next 3 seconds. If player lost all of his lives game is over and he can save the score and then start again. There is also a slow time skill for helping player, every 3000 points it gets 1 stack of energy, each stack let use skill for 1s (max 5s).
 <details>
     <summary><b>Screenshots</b></summary>
     <img alt="Menu" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme-images/menu.png">
