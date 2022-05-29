@@ -33,6 +33,9 @@ Menu has 3 options:
 ### Game
 Games start with count from 3 to 1 and it begins. 
 
+### Road and background
+Game consist of four canvases, three of them are background and one is game itself. For background there are two canvases with trees image and one with gray background and road lanes, all of them are moving in loop with synchronized speed. Player, enemies and deers are painted in the main canvas over the middle one with road background, all collision detections happens here.
+
 ### Enenmies position algorithm
 Some amount of enemy cars (dependent of difficulty level) starts falling from top with random positions and speeds using the following algorithm:
 * Random new position
@@ -43,7 +46,12 @@ Some amount of enemy cars (dependent of difficulty level) starts falling from to
    4. If the above are not correct random new position and check again
 
 ### Deers
-Deers spawn in radom intervals of time with random position and vector. If they touch enemy they die. If killed by player, they gives 1000 point and die, If they reach other side of road they respawn again for a random amount of time. If deer is dead his image is swaped for blood and his vector.x is set to 0.
+Deers spawn in radom intervals of time with random position and vector. If they touch enemy they die. If killed by player, they gives 1000 point and die. If they reach other side of road they respawn again for a random amount of time. If deer is dead his image is swaped for blood and his vector.x is set to 0.
 
+### Player
+Player has event listener for mouse movement and key press for activating slowmo. Movement of player is limited by size of the road.
+
+### Game over animation
+When player loses his last life, game over animation is fired, enemies explode while player start sliding to the closest side of the road, if he pass road size limit happy deers appears and starts laughing at the player for 3s, then game over screen slides from top and player can save score and/or back to menu.
 
 
