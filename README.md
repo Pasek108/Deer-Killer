@@ -16,7 +16,7 @@ Menu starts with few animations:
 4. Resize sign and move it to top while sliding in menu options from bottom
 <details>
     <summary>Animation</summary>
-    <img alt="Menu start animation" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme-images/menu_top_score.png">
+    <img alt="Menu start animation" src="https://github.com/Pasek108/Deer-Killer/blob/main/readme-images/menu_animation.gif">
 </details> 
 
 Menu has 3 options:
